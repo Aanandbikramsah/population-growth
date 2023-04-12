@@ -1,0 +1,138 @@
+/* default style for page  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(assets/img/back.png);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.navbar {
+    padding: 1rem 2rem;
+
+}
+
+.nav-item{
+    padding: 0px 15px;
+}
+
+.nav-item a{
+    color: black;
+    font-size: 1.4rem;
+    border-radius: 18px;
+}
+
+ .nav-item a:hover{
+    transform: translateY(-2px);
+    transition: 100ms;
+    color: #fbb902;
+} 
+
+.brand_logo{
+    width: 130px;
+    border-radius: 15px;
+}
+
+.btn{
+    color: black;
+    border-radius: 5px;
+    background-color: #fbb902;
+}
+.btn:hover{
+    background-color: #282a30;
+    color: #fbb902;
+    border: 1px solid #fbb902;
+}
+
+/* navigation ends here  */
+
+/* section one starts here  */
+
+
+#sec1_text{
+    padding-top: 170px;
+    color: #282a30;
+}
+
+/* section two starts here  */
+
+#two{
+    margin-top: 70px;
+    height: 3000px;
+    background-color: #282a30;
+    color: white;
+}
+
+.card{
+    background-color: #272831;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.card:hover{
+    background-color: #fbb902;
+    border:  #282a30 2px solid;
+    transform: translateY(-5px);
+    transition: 1s;
+}
+/* section two ends here  */
+
+
+/* section three here  */
+
+#three{
+    background-color: #edeae7;
+}
+
+.card1{
+    background-color: #272831;
+    height: 600px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+
+#ye-to-photu-hai img{
+    height: 380px;
+    border-radius: 50px;
+}
+
+/* section three here  */
+
+/* section four starts here  */
+
+#four{
+    height: 80px;
+    background-color: #272831;
+}
+
+#four .container{
+    color: #edeae7;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+
+/* section four ends here  */
+
+
+/* media querries  */
+
+@media screen and (max-width: 1000px) {
+    #sec1_text{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #three{
+        padding-top: 690px;
+    }
+}
